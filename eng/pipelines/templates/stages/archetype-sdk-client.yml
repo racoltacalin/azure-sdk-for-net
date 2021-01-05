@@ -61,7 +61,7 @@ stages:
       parameters:
         SDKType: ${{ parameters.SDKType }}
         ServiceDirectory: ${{ parameters.ServiceDirectory }}
-        DependsOn: Build
+        #        DependsOn: Build
         Artifacts: ${{ parameters.Artifacts }}
         TestPipeline: ${{ parameters.TestPipeline }}
         ArtifactName: packages
